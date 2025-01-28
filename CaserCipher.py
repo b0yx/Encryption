@@ -4,7 +4,8 @@ message = input("Put your message: ")
 key = int(input("Put the key: "))
 mode = int(input("Choose the mode:\nEncrypt == 1 || Decrypt == 2 :\t"))
 
-Symbols = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!?!@#$%^&*()_+."
+Symbols = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()_-+=[]{}|\\;:\'",.<>?/`~ '
+
 TranslatedMessage = ''
 
 for symbol in message:
